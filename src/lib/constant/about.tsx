@@ -10,9 +10,9 @@ import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 // about data
 export const about = {
-  title: 'About me',
+  title: 'About Me',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+    "Hi there!\nI'm a Full Stack Developer with a passion for crafting seamless and innovative solutions.\nIn the ever-evolving world of technology, I pride myself on staying ahead of the curve, continually honing my skills to deliver top-notch results.\nI’m excited to connect with like-minded individuals and organizations, so feel free to reach out if you’d like to chat about technology, collaboration, or just to share a great story!",
   info: [
     {
       fieldName: 'Name',
@@ -32,15 +32,15 @@ export const about = {
     },
     {
       fieldName: 'Nationality',
-      fieldValue: 'Korean',
+      fieldValue: 'Republic of Korea',
     },
     {
       fieldName: 'Email',
       fieldValue: 'kimkuns98@gmail.com',
     },
     {
-      fieldName: 'Freelance',
-      fieldValue: 'Available',
+      fieldName: 'Major',
+      fieldValue: 'Computer Science',
     },
     {
       fieldName: 'Lanuages',
@@ -52,39 +52,29 @@ export const about = {
 // experience data
 export const experience = {
   icon: '/assets/resume/badge.svg',
-  title: 'My experience',
+  title: 'My Experience',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+    'I have gained valuable experience working in various roles across different organizations, contributing to my growth as a professional in the field of technology.',
   items: [
     {
-      company: 'Tech Solutions Inc.',
-      position: 'Full Stack Developer',
-      duration: '2022 - Present',
+      company: 'OGT',
+      position: 'Coach',
+      duration: '2019',
     },
     {
-      company: 'Web Design Studio',
-      position: 'Front-End Developer Intern',
-      duration: 'Summer 2021',
+      company: 'Freelance',
+      position: 'Fullstack Programmer',
+      duration: '2019-2021',
     },
     {
-      company: 'E-commerce Startup',
-      position: 'Freelance Web Developer',
-      duration: '2020 - 2021',
+      company: 'Lyncare Inc.',
+      position: 'CEO',
+      duration: '2021-present',
     },
     {
-      company: 'Tech Academy',
-      position: 'Teaching Assistant',
-      duration: '2019 - 2020',
-    },
-    {
-      company: 'Digital Agency',
-      position: 'UI/UX Designer',
-      duration: '2018 - 2019',
-    },
-    {
-      company: 'Software Development Firm',
-      position: 'Junior Developer',
-      duration: '2017 - 2018',
+      company: 'Wevibe Inc.',
+      position: 'CTO',
+      duration: '2021-present',
     },
   ],
 };
@@ -92,14 +82,14 @@ export const experience = {
 // education data
 export const education = {
   icon: '/assets/resume/cap.svg',
-  title: 'My education',
+  title: 'My Education',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+    'I have pursued a diverse educational path to build a solid foundation in web development and design.',
   items: [
     {
       institution: 'Online Course Platform',
       degree: 'Full Stack Web Development Bootcamp',
-      duration: '2023',
+      duration: '2021',
     },
     {
       institution: 'Codecademy',
@@ -119,21 +109,21 @@ export const education = {
     {
       institution: 'Design School',
       degree: 'Diploma in Graphic Design',
-      duration: '2016 - 2018',
+      duration: '2021- 2022',
     },
     {
-      institution: 'Community College',
+      institution: 'College',
       degree: 'Associate Degree in Computer Science',
-      duration: '2014 - 2016',
+      duration: '2012 - 2019',
     },
   ],
 };
 
 // skills data
 export const skills = {
-  title: 'My skills',
+  title: 'My Skills',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+    'Making apps with modern technologies and best practices is my passion.',
   skillList: [
     {
       icon: <FaHtml5 />,
