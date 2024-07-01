@@ -1,6 +1,6 @@
 export const stats = [
   {
-    num: 12,
+    num: 5,
     text: 'Years of experience',
   },
   {

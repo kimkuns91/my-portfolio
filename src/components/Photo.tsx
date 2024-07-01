@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const Photo = () => {
@@ -19,16 +20,16 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: 'easeInOut' },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[490px] xl:h-[490px] mix-blend-lighten absolute"
         >
-            {/* <Image
-              src="/assets/photo.jpeg"
-              priority
-              quality={100}
-              fill
-              alt="my photo"
-              className="object-contain"
-            /> */}
+          <Image
+            src="/assets/photo.png"
+            priority
+            quality={100}
+            fill
+            alt="my photo"
+            className="object-contain"
+          />
         </motion.div>
         {/* circle */}
         <motion.svg
