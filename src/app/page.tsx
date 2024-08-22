@@ -1,8 +1,10 @@
 import { Button } from '@/components/ui/button';
 import { FiDownload } from 'react-icons/fi';
+import MyProjects from '@/components/MyProjects';
 import Photo from '@/components/Photo';
 import Social from '@/components/Social';
 import Stats from '@/components/Stats';
+import WorkExperience from '@/components/WorkExperience';
 
 const Home = () => {
   return (
@@ -46,6 +48,8 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+      <WorkExperience />
+      <MyProjects />
     </section>
   );
 };
