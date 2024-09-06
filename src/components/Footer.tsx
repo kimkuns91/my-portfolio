@@ -36,7 +36,7 @@ const Footer = () => {
             {links.map((link, index) => (
               <li key={'pages' + index} className="list-none">
                 <Link
-                  className="transition-colors hover:text-text-neutral-800 "
+                  className="transition-colors text-neutral-dark hover:text-neutral-light"
                   href={link.path}
                 >
                   {link.name}
@@ -45,7 +45,7 @@ const Footer = () => {
             ))}
             <li className="list-none">
               <Link
-                className="transition-colors hover:text-text-neutral-800 "
+                className="transition-colors text-neutral-dark hover:text-neutral-light"
                 href={'https://www.whitemouse.dev/'}
               >
                 blog
@@ -56,20 +56,20 @@ const Footer = () => {
           <GridLineHorizontal className="max-w-7xl mx-auto mt-8" />
         </div>
         <div className="flex sm:flex-row flex-col justify-between mt-8 items-center w-full">
-          <p className="text-neutral-500 dark:text-neutral-400 mb-8 sm:mb-0">
-            WhiteMouseDev
+          <p className="text-neutral-400 mb-8 sm:mb-0">
+            © 2024 WhiteMouseDev. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <Link href='https://www.linkedin.com/in/kun-woo-kim-b39727225/'>
+            <Link href="https://www.linkedin.com/in/kun-woo-kim-b39727225/">
               <IconBrandLinkedin className="h-6 w-6 text-neutral-500 dark:text-neutral-300" />
             </Link>
-            <Link href='https://github.com/kimkuns91'>
+            <Link href="https://github.com/kimkuns91">
               <IconBrandGithub className="h-6 w-6 text-neutral-500 dark:text-neutral-300" />
             </Link>
-            <Link href='https://open.kakao.com/o/gq51dAMg'>
+            <Link href="https://open.kakao.com/o/gq51dAMg">
               <IconBrandKakoTalk className="h-6 w-6 text-neutral-500 dark:text-neutral-300" />
             </Link>
-            <Link href='https://www.instagram.com/kimkuns98/'>
+            <Link href="https://www.instagram.com/kimkuns98/">
               <IconBrandInstagram className="h-6 w-6 text-neutral-500 dark:text-neutral-300" />
             </Link>
           </div>
