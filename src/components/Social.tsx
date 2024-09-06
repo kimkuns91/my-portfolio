@@ -1,5 +1,5 @@
-import { socials } from '@/lib/constant/socials';
 import Link from 'next/link';
+import { socials } from '@/lib/constant/socials';
 
 interface SocialProps {
   containerStyles: string;

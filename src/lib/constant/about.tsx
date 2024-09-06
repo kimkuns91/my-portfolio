@@ -6,7 +6,9 @@ import {
   FaNodeJs,
   FaReact,
 } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
+import { SiAdobexd, SiFlutter, SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si';
+
+import { TbBrandReactNative } from "react-icons/tb";
 
 // about data
 export const about = {
@@ -127,35 +129,51 @@ export const skills = {
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: 'html 5',
+      name: 'Html 5',
     },
     {
       icon: <FaCss3 />,
-      name: 'css 3',
+      name: 'Css 3',
     },
     {
       icon: <FaJs />,
-      name: 'javascript',
+      name: 'Javascript',
+    },
+    {
+      icon: <SiTypescript />,
+      name: 'Typescript',
     },
     {
       icon: <FaReact />,
-      name: 'react.js',
+      name: 'React.js',
     },
     {
       icon: <SiNextdotjs />,
-      name: 'next.js',
+      name: 'Next.js',
     },
     {
       icon: <SiTailwindcss />,
-      name: 'tailwind.css',
+      name: 'Tailwind.css',
     },
     {
       icon: <FaNodeJs />,
-      name: 'node.js',
+      name: 'Node.js',
+    },
+    {
+      icon:  <TbBrandReactNative />,
+      name: 'React Native',
+    },
+    {
+      icon: <SiFlutter />,
+      name: 'Flutter',
     },
     {
       icon: <FaFigma />,
-      name: 'figma',
+      name: 'Figma',
+    },
+    {
+      icon: <SiAdobexd />,
+      name: 'XD',
     },
   ],
 };

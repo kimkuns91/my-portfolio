@@ -28,7 +28,7 @@ const Photo = () => {
             quality={100}
             fill
             alt="my photo"
-            className="object-contain"
+            className="object-contain order-1"
           />
         </motion.div>
         {/* circle */}

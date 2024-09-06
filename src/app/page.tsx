@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { FiDownload } from 'react-icons/fi';
 import MyProjects from '@/components/MyProjects';
 import Photo from '@/components/Photo';
+import RecentWork from '@/components/RecentWork';
 import Social from '@/components/Social';
 import Stats from '@/components/Stats';
 import WorkExperience from '@/components/WorkExperience';
@@ -13,7 +14,9 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Fullstack Developer</span>
+            <span className="text-xl text-neutral-dark">
+              Fullstack Developer
+            </span>
             <h1 className="h1 mb-6">
               Hello I{"'"}m <br />
               <span className="text-accent">Kun Woo Kim</span>
@@ -48,8 +51,9 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+      <RecentWork />
       <WorkExperience />
-      <MyProjects />
+      {/* <MyProjects /> */}
     </section>
   );
 };

@@ -1,11 +1,11 @@
 'use client';
 
-import { stats } from '@/lib/constant/stats';
 import CountUp from 'react-countup';
+import { stats } from '@/lib/constant/stats';
 
 const Stats = () => {
   return (
-    <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
+    <section className="pt-4 pb-20 xl:pt-0">
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
           {stats.map((item, index) => {
