@@ -25,8 +25,10 @@ const config = {
     },
     extend: {
       colors: {
-        primary: '#1c1c22', // 기존의 어두운 배경색
-        secondary: '#2e2e38', // 약간 더 밝은 배경색으로 섹션 구분 시 사용 가능
+        // primary: '#1c1c22', // 기존의 어두운 배경색
+        primary: '#18181B', // 기존의 어두운 배경색
+        // secondary: '#2e2e38', // 약간 더 밝은 배경색으로 섹션 구분 시 사용 가능
+        secondary: '#27272A', // 약간 더 밝은 배경색으로 섹션 구분 시 사용 가능
         accent: {
           DEFAULT: '#00ff99', // 네온 그린 - 주요 강조 색상
           hover: '#00e187', // 강조 색상에 마우스 오버 시

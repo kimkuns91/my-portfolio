@@ -79,7 +79,7 @@ export const Card = ({ project }: { project: Projects }) => {
   };
   return (
     <Link
-      className="shadow-derek rounded-3xl border border-neutral-800 w-full bg-neutral-900  overflow-hidden  hover:scale-[1.02] transition duration-200"
+      className="shadow-derek rounded-3xl border border-neutral-800 w-full bg-secondary overflow-hidden  hover:scale-[1.02] transition duration-200"
       href={project.link || '/'}
     >
       {project.images ? (
@@ -95,7 +95,7 @@ export const Card = ({ project }: { project: Projects }) => {
           <Logo />
         </div>
       )}
-      <div className="p-4 md:p-8 bg-neutral-900">
+      <div className="p-4 md:p-8 bg-secondary">
         <div className="flex space-x-2 items-center  mb-2">
           <Image
             src={'/assets/kunwoo-4.jpg'}

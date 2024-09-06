@@ -45,33 +45,33 @@ const Timeline: React.FC = () => (
     <TimelineItem
       year="2024"
       events={[
-        "Building a new startup, this time it's going to be a big one",
-        "Started writing blogs as a daily habit. Won the nobel prize for literature",
-        "My brother went on to pursue a career in music, he's now a famous singer",
+        'Collaborated with a university to create an MVP version of a learning model system.',
+        'Built a legal service using technologies like NextJS 14 and OPENAI.',
+        'Planned and developed an MVP version of a video platform.',
       ]}
     />
     <TimelineItem
       year="2023"
       events={[
-        "Bought a new M2 chip macbook pro wow this is crazy!",
-        "Broke the chip as soon as I got it, had to buy a new one",
-        "Bought a new M2 chip macbook pro and started living on the streets.",
+        'Obtained a Data Analysis Expert certification.',
+        'Participated in several AI seminars, sharing and learning information with various companies.',
+        'Developed an order management system application using Flutter.',
       ]}
     />
     <TimelineItem
       year="2022"
       events={[
-        "Bought a new M2 chip macbook pro wow this is crazy!",
-        "Broke the chip as soon as I got it, had to buy a new one",
-        "Bought a new M2 chip macbook pro and started living on the streets.",
+        'Worked on creating several online shopping malls.',
+        'Completed a project analyzing images using Python.',
+        'Signed a contract with the Public Data Center and worked on integrating various APIs.',
       ]}
     />
     <TimelineItem
       year="2021"
       events={[
-        "Bought a new M2 chip macbook pro wow this is crazy!",
-        "Broke the chip as soon as I got it, had to buy a new one",
-        "Bought a new M2 chip macbook pro and started living on the streets.",
+        'Founded Lyncare Co., Ltd.',
+        'Obtained a Web Design certification.',
+        'Bought a new M1 chip macbook pro wow this is crazy!',
       ]}
     />
     {/* 추가 TimelineItem으로 연도별 기록을 계속 추가 */}
