@@ -6,9 +6,15 @@ import {
   FaNodeJs,
   FaReact,
 } from 'react-icons/fa';
-import { SiAdobexd, SiFlutter, SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import {
+  SiAdobexd,
+  SiFlutter,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+} from 'react-icons/si';
 
-import { TbBrandReactNative } from "react-icons/tb";
+import { TbBrandReactNative } from 'react-icons/tb';
 
 // about data
 export const about = {
@@ -26,7 +32,7 @@ export const about = {
     },
     {
       fieldName: 'Experience',
-      fieldValue: '5+ Years',
+      fieldValue: '4+ Years',
     },
     {
       fieldName: 'KakaoTalk ID',
@@ -59,9 +65,14 @@ export const experience = {
     'I have gained valuable experience working in various roles across different organizations, contributing to my growth as a professional in the field of technology.',
   items: [
     {
-      company: 'OGT',
-      position: 'Coach',
-      duration: '2019',
+      company: 'Lyncare Inc.',
+      position: 'Project Manager',
+      duration: '2022-present',
+    },
+    {
+      company: 'Wevibe Inc.',
+      position: 'Project Manager',
+      duration: '2021-2022',
     },
     {
       company: 'Freelance',
@@ -69,14 +80,9 @@ export const experience = {
       duration: '2019-2021',
     },
     {
-      company: 'Lyncare Inc.',
-      position: 'CEO',
-      duration: '2021-present',
-    },
-    {
-      company: 'Wevibe Inc.',
-      position: 'CTO',
-      duration: '2021-present',
+      company: 'OGT',
+      position: 'Coach',
+      duration: '2019',
     },
   ],
 };
@@ -160,7 +166,7 @@ export const skills = {
       name: 'Node.js',
     },
     {
-      icon:  <TbBrandReactNative />,
+      icon: <TbBrandReactNative />,
       name: 'React Native',
     },
     {

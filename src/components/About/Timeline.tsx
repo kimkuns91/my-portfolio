@@ -53,7 +53,7 @@ const Timeline: React.FC = () => (
     <TimelineItem
       year="2023"
       events={[
-        'Obtained a Data Analysis Expert certification.',
+        'Built various web services using Next.js',
         'Participated in several AI seminars, sharing and learning information with various companies.',
         'Developed an order management system application using Flutter.',
       ]}
@@ -61,17 +61,17 @@ const Timeline: React.FC = () => (
     <TimelineItem
       year="2022"
       events={[
-        'Worked on creating several online shopping malls.',
-        'Completed a project analyzing images using Python.',
+        'Acquired the Advanced Data Analytics Semi-Professional certification.',
+        'Developed websites for multiple law firms.',
         'Signed a contract with the Public Data Center and worked on integrating various APIs.',
       ]}
     />
     <TimelineItem
       year="2021"
       events={[
-        'Founded Lyncare Co., Ltd.',
-        'Obtained a Web Design certification.',
-        'Bought a new M1 chip macbook pro wow this is crazy!',
+        'Joined WeVibe as a Project Manager.',
+        'Built several online shopping malls and websites as a Full Stack Developer.',
+        'Completed an image analysis project using Python.',
       ]}
     />
     {/* 추가 TimelineItem으로 연도별 기록을 계속 추가 */}

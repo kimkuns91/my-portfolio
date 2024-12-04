@@ -1,7 +1,7 @@
-import { Button } from "./ui/button";
-import Link from "next/link";
-import MobileNav from "./MobileNav";
-import Nav from "./Nav";
+import { Button } from './ui/button';
+import Link from 'next/link';
+import MobileNav from './MobileNav';
+import Nav from './Nav';
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         {/* desktop nav & hire me button */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
+          <Link href="/assets/Kun_Woo_Kim_CV.pdf" download>
             <Button>Download CV</Button>
           </Link>
         </div>
